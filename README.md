@@ -1,5 +1,5 @@
-Para tachar el texto usamos dos ~~ al principio y al final del texto a tachar
-Ejemplo: ~~ texto tachado ~~
+Para tachar el texto usamos dos ~~ al principio texto a tachar
+Ejemplo: ~~texto tachado
 
 
 Indicacions
