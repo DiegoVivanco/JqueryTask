@@ -64,3 +64,18 @@
     position: absolute;
 }
 
+#vigilanteUno{
+     position: absolute;
+}
+
+#vigilanteDos{
+    position: absolute;
+    top: 30%;
+}
+
+#supervivor{
+    position: absolute;
+    left: 10%;
+}
+
+
