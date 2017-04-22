@@ -1,64 +1,66 @@
 #contenedor{
+    border-style: solid;
     margin: 0 auto;
-    width: 1200px;
-    height: 1000px;
+    width: 1500px;
+    height: 700px;
 }
 
 #planoEmpresa{
     margin: 0 auto;
     border-style: none;
-    width: 1000px;
-    height: 800px;
+    width: 800px;
+    height: 500px;
 }
 
 #areaDeVentas{
     margin: 0 auto;
     border-style: solid;
-    width: 1000px;
-    height: 400px;
+    width: 800px;
+    height: 250px;
 }
 
 #almacen{
     margin: 0 auto;
     border-style: solid;
-    width: 1000px;
-    height: 400px;
+    width: 800px;
+    height: 250px;
 }
 
 #puntoDeVigilancia{
     margin: 0 auto;
     position: absolute;
-    top: 204px;
+    top: 158px;
     border-style: dashed;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 #puntoDeSupervision{
     border-style: dashed;
     background: white;
-    width: 200px;
-    left: 73%;
-    top: 310px;
-    margin-left: -200px;
-    height: 200px;
+    left: 60%;
+    top: 212px;
+    width: 100px;
+    height: 100px;
     position: absolute;
 }
 
 #puertaArriba {
     left: 46%;
-    top: 303px;
+    top: 182px;
+    width: 165px;
     position: absolute;
 }
 
 #puertaLado{
     position: absolute;
-    height: 195px;
+    left: 19%;
+    height: 150px;
 }
 
 #puertaAbajo{
     left: 46%;
-    top: 810px;
+    top: 509px;
     position: absolute;
 }
 
