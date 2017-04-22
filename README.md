@@ -1,3 +1,6 @@
+Para tachar el texto usamos dos ~~ al principio y al final del texto a tachar
+Ejemplo: ~~ texto tachado ~~
+
 
 Indicacions
 1) Dibuixau un croquis de l’edifici. Aquest ha d’estar dividit en dos grans espais: l’àrea de vendes i el magatzem. Hi ha d’haver 3 portes: una de l’àrea de vendes a l’exterior, una altra del magatzem a l’exterior, i una tercera que interconnecti els dos espais. Per facilitar-te l’exercici 9 (descrit més endavant), convé que la porta de l’àrea de vendes estigui a un dels dos laterals del plànol (Est o Oest) i no a la part superior ni inferior (Nord o Sud).
