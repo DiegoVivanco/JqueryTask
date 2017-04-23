@@ -29,8 +29,9 @@ Un altre cop dins el croquis:
 
 Només per als grups de 4:
 
-~~12) Els punts de vigilància i supervisió han de recuperar la seva tonalitat original si queden desatesos.
-13) Afegir un control addicional consistent en un panell de missatges que, quan correspon, mostri els missatges següents: «Totes les portes estan tancades» i/o «Els punts de vigilància i supervisió estan correctament atesos».~~
+12) ~~Els punts de vigilància i supervisió han de recuperar la seva tonalitat original si queden desatesos.~~
+
+13) ~~Afegir un control addicional consistent en un panell de missatges que, quan correspon, mostri els missatges següents: «Totes les portes estan tancades» i/o «Els punts de vigilància i supervisió estan correctament atesos».~~
 
 Tecnologies preferides
 
