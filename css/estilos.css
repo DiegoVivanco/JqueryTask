@@ -37,7 +37,6 @@
 
 #puntoDeSupervision{
     border-style: dashed;
-    background: white;
     left: 60%;
     top: 212px;
     width: 100px;
@@ -65,17 +64,50 @@
 }
 
 #vigilanteUno{
-     position: absolute;
+    /*text-align:center;*/
+    /*vertical-align:middle;*/
+    /*font-size:12px;*/
+    /*font-weight:bold;*/
+    width:75px;
+    height:75px;
+    border-style: solid;
+    position: absolute;
+    z-index: 10;
 }
 
 #vigilanteDos{
+    /*text-align:center;*/
+    /*vertical-align:middle;*/
+    /*font-size:12px;*/
+    /*font-weight:bold;*/
+    width:75px;
+    height:75px;
+    border-style: solid;
     position: absolute;
     top: 30%;
+    z-index: 10;
+
 }
 
 #supervivor{
+    /*text-align:center;*/
+    /*vertical-align:middle;*/
+    /*font-size:12px;*/
+    /*font-weight:bold;*/
+    width:75px;
+    height:75px;
+    border-style: solid;
     position: absolute;
     left: 10%;
+    z-index: 10;
 }
 
+/** style for droppable when the moveable object is dropped **/
+.dropClassVigilante{
+    background:#55d532;
+}
+
+.dropClassSupervisor{
+    background: #b52d8e;
+}
 
