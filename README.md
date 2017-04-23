@@ -3,11 +3,12 @@ Ejemplo: ~~texto tachado~~
 
 
 Indicacions
-1) Dibuixau un croquis de l’edifici. Aquest ha d’estar dividit en dos grans espais: l’àrea de vendes i el magatzem. Hi ha d’haver 3 portes: una de l’àrea de vendes a l’exterior, una altra del magatzem a l’exterior, i una tercera que interconnecti els dos espais. Per facilitar-te l’exercici 9 (descrit més endavant), convé que la porta de l’àrea de vendes estigui a un dels dos laterals del plànol (Est o Oest) i no a la part superior ni inferior (Nord o Sud).
+1) ~~Dibuixau un croquis de l’edifici. Aquest ha d’estar dividit en dos grans espais: l’àrea de vendes i el magatzem. Hi ha d’haver 3 portes: una de l’àrea de vendes a l’exterior, una altra del magatzem a l’exterior, i una tercera que interconnecti els dos espais. Per facilitar-te l’exercici 9 (descrit més endavant), convé que la porta de l’àrea de vendes estigui a un dels dos laterals del plànol (Est o Oest) i no a la part superior ni inferior (Nord o Sud)~~.
 2) Definiu 2 droppables que faran el paper de vigilants i 1 droppable que farà el paper de supervisors. Tots ells s’han de poder moure lliurement pel centre comercial arrossegant-los amb el ratolí, però l’aplicació no ha de permetre que el supervisor en surti. Els vigilants han de ser clarament distingibles del supervisor.
-3) Definiu un draggable devora de la porta de vendes, que farà el paper de punt de vigilància. I un altre, devora la porta interior, que serà el punt de supervisió.
-4) Quan hi hagi un vigilant dins el punt de vigilància, aquest últim ha de canviar de tonalitat. I,
-quan hi hagi un supervisor dins el punt de supervisió, el punt de supervisió ha de canviar de tonalitat.
+3) ~~Definiu un draggable devora de la porta de vendes, que farà el paper de punt de vigilància. I un altre, devora la porta interior, que serà el punt de supervisió.~~
+4) ~~Quan hi hagi un vigilant dins el punt de vigilància, aquest últim ha de canviar de tonalitat. I,
+quan hi hagi un supervisor dins el punt de supervisió, el punt de supervisió ha de canviar de tonalitat.~~
+
 Una mica separats del croquis, definiu els controls següents:
 5) Un sortable amb els principals departaments del centre (per exemple: Alimentació, Neteja, Roba i Electrònica). No cal que aquests departaments estiguin representats al croquis. La llista ha de permetre ordenar manualment els departaments, segons tenguin major o menor prioritat de vigilància. La llista es comunicaria al vigilant que no està a la porta, perquè la tengui en compte a l’hora de fer les rondes; però aquesta funcionalitat de comunicació no s’ha d’implementar.
 6) Un acordió amb dos botons: Supervisor i Vigilants. En iniciar l’aplicació, els supervisors i els vigilants estaran dins el desplegable corresponent de l’acordió i l’usuari els haurà d’agafar d’allà. L’acordió s’ha de poder deixar amb tots els desplegables tancats. Tal i com està definida l’aplicació, el desplaçament del supervisor a dins el centre s’executarà bruscament; però aquest defecte estètic no es penalitzarà.
