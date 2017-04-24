@@ -22,14 +22,15 @@ $( function() {
 
 // Función que Define draggable y droppable
 $( function() {
-    $( "#supervivor" ).draggable();
+    $( "#supervivor" ).draggable({
+        containment: '#planoEmpresa'
+    });
     $( "#puntoDeSupervision" ).droppable({
         // validación que solo acepta el #supervisor
         accept: "#supervivor",
         // función que añade una clase cuando la acción es drop (dejar caer)
         drop: function( event, ui ) {
-            $( this )
-                .addClass('dropClassSupervisor');
+            $( this ).addClass('dropClassSupervisor');
         },
         // función que elimine una clase
         out: function (event, ui) {
