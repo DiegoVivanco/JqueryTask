@@ -153,10 +153,16 @@
 
 #accordion{
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 200px;
     position: absolute;
 }
 
 #accordion >div {
     height: 70px;
+}
+
+#menu {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
 }

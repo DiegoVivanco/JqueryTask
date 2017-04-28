@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
 
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
     <title>Plano Empresa</title>
 
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -19,6 +21,30 @@
 <body>
 
     <div id="contenedor">
+        <!--class="ui-state-disabled"-->
+        <ul id="menu">
+            <li ><div>Ventas</div>
+                <ul>
+                    <li><div>Abrir</div></li>
+                    <li><div>Detener</div></li>
+                    <li><div>Cerrar</div></li>
+                </ul>
+            </li>
+            <li><div>Interior</div>
+                <ul>
+                    <li><div>Abrir</div></li>
+                    <li class="ui-state-disabled"><div>Detener</div></li>
+                    <li><div>Cerrar</div></li>
+                </ul>
+            </li>
+            <li><div>Almacen</div>
+                <ul>
+                    <li><div>Abrir</div></li>
+                    <li><div>Detener</div></li>
+                    <li><div>Cerrar</div></li>
+                </ul>
+            </li>
+        </ul>
 
         <div id="accordion">
             <h3>Vigilantes</h3>

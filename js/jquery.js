@@ -58,3 +58,7 @@ $( function() {
 $( function() {
     $( "#accordion" ).accordion();
 } );
+
+$( function() {
+    $( "#menu" ).menu();
+} );
