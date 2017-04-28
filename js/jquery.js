@@ -62,3 +62,7 @@ $( function() {
 $( function() {
     $( "#menu" ).menu();
 } );
+
+$( function() {
+    $( "#tabs" ).tabs();
+} );

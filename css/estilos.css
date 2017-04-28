@@ -123,7 +123,7 @@
     padding: 0;
     width: 200px;
     margin-left: 1200px;
-    margin-top: 100px;
+    margin-top: 10px;
     position: absolute;
 }
 
@@ -165,4 +165,12 @@
     position: absolute;
     margin-left: 10px;
     margin-top: 10px;
+}
+
+#tabs {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    margin-left: 1174px;
+    margin-top: 216px;
 }
