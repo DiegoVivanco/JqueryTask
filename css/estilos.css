@@ -33,6 +33,7 @@
     border-style: dashed;
     width: 100px;
     height: 100px;
+    background: #41d592;
 }
 
 #puntoDeSupervision{
@@ -42,6 +43,7 @@
     width: 100px;
     height: 100px;
     position: absolute;
+    background: #977AAD;
 }
 
 #puertaArriba {
@@ -60,6 +62,8 @@
 }
 
 #puertaAbajo{
+    width: 165px;
+    height: 50px;
     left: 46%;
     top: 509px;
     position: absolute;

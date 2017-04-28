@@ -8,13 +8,12 @@ $( function() {
         $( "#puntoDeVigilancia" ).droppable({
             accept: ".vigilante",
             drop: function( event, ui ) {
-                $( this )
-                    .addClass('dropClassVigilante');
+                $( this ).css('background', '#55d532');
             },
             out: function (event, ui) {
                 var self = ui;
                 ui.helper.off('mouseup').on('mouseup', function () {
-                    $('#puntoDeVigilancia').removeClass('dropClassVigilante');
+                    $('#puntoDeVigilancia').css('background', '#41d592');
                 });
             }
         });
@@ -30,13 +29,13 @@ $( function() {
         accept: "#supervivor",
         // función que añade una clase cuando la acción es drop (dejar caer)
         drop: function( event, ui ) {
-            $( this ).addClass('dropClassSupervisor');
+            $( this ).css('background', '#8a8c64');
         },
         // función que elimine una clase
         out: function (event, ui) {
             var self = ui;
             ui.helper.off('mouseup').on('mouseup', function () {
-                $('#puntoDeSupervision').removeClass('dropClassSupervisor');
+                $('#puntoDeSupervision').css('background', '#977AAD');
             });
         }
     });
