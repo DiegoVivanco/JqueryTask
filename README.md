@@ -11,9 +11,9 @@ quan hi hagi un supervisor dins el punt de supervisió, el punt de supervisió h
 
 Una mica separats del croquis, definiu els controls següents:
 
-5) Un sortable amb els principals departaments del centre (per exemple: Alimentació, Neteja, Roba i Electrònica). No cal que aquests departaments estiguin representats al croquis. La llista ha de permetre ordenar manualment els departaments, segons tenguin major o menor prioritat de vigilància. La llista es comunicaria al vigilant que no està a la porta, perquè la tengui en compte a l’hora de fer les rondes; però aquesta funcionalitat de comunicació no s’ha d’implementar.
+5) ~~Un sortable amb els principals departaments del centre (per exemple: Alimentació, Neteja, Roba i Electrònica). No cal que aquests departaments estiguin representats al croquis. La llista ha de permetre ordenar manualment els departaments, segons tenguin major o menor prioritat de vigilància. La llista es comunicaria al vigilant que no està a la porta, perquè la tengui en compte a l’hora de fer les rondes; però aquesta funcionalitat de comunicació no s’ha d’implementar.~~
 
-6) Un acordió amb dos botons: Supervisor i Vigilants. En iniciar l’aplicació, els supervisors i els vigilants estaran dins el desplegable corresponent de l’acordió i l’usuari els haurà d’agafar d’allà. L’acordió s’ha de poder deixar amb tots els desplegables tancats. Tal i com està definida l’aplicació, el desplaçament del supervisor a dins el centre s’executarà bruscament; però aquest defecte estètic no es penalitzarà.
+6) ~~Un acordió amb dos botons: Supervisor i Vigilants. En iniciar l’aplicació, els supervisors i els vigilants estaran dins el desplegable corresponent de l’acordió i l’usuari els haurà d’agafar d’allà. L’acordió s’ha de poder deixar amb tots els desplegables tancats. Tal i com està definida l’aplicació, el desplaçament del supervisor a dins el centre s’executarà bruscament; però aquest defecte estètic no es penalitzarà.~~
 
 7) Un menú amb 3 opcions: Porta de l’àrea de vendes, Porta del magatzem i Porta interior. I, per a cada opció, 3 sub-opocions: Obrir, Tancar i Detenir. Excepte l’opció corresponent a la porta interior, que no tendrà la sub-opció de Detenir.
 
