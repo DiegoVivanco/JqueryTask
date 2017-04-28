@@ -88,7 +88,7 @@
     position: absolute;
     top: 30%;
     z-index: 10;
-
+    margin-left: 100px;
 }
 
 #supervivor{
@@ -113,3 +113,46 @@
     background: #b52d8e;
 }
 
+#sortable {
+    list-style-type: armenian;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    margin-left: 1200px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+#sortable li {
+    margin: 0 3px 3px 3px;
+    padding: 0.4em;
+    padding-left: 1.5em;
+    font-size: 1.4em;
+    height: 18px;
+    border-bottom: #21dcdc;
+    border: solid;
+    border-radius: 10px;
+}
+
+#sortable li span {
+    position: absolute;
+    margin-left: -1.3em;
+}
+
+#accordion h3 {
+    width: 200px;
+    text-transform: uppercase;
+    background: #cf3700;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+}
+
+#accordion{
+    margin-left: 50px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+#accordion >div {
+    height: 70px;
+}

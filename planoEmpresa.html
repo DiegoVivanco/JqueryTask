@@ -19,24 +19,44 @@
 <body>
 
     <div id="contenedor">
+
+        <div id="accordion">
+            <h3>Vigilantes</h3>
+            <div id="vigilantes-container">
+            <!--Vigilante Uno-->
+            <div id="vigilanteUno" class="vigilante">
+                <img src="img/vigilante.jpg" alt="vigilanteUno" width="50px">
+            </div>
+
+            <!--Vigilante Dos-->
+            <div id="vigilanteDos" class="vigilante">
+                <img src="img/vigilante.jpg" alt="vigilanteDos" width="50px">
+            </div>
+            </div>
+            <h3>Supervisores</h3>
+            <div id="supervisores-container">
+
+            <!--Supervisor-->
+            <div id="supervivor">
+                <img src="img/supervisor.png" alt="supervivor" width="50px">
+            </div>
+
+            </div>
+        </div>
+
+        <ul id="sortable">
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Alimentació</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Neteja</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Roba</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Electrònica</li>
+        </ul>
+
         <!-- puerta provisional situada en la parte latera -->
         <img src="img/puertaAbierta.jpg" alt="puertaLado" id="puertaLado">
 
-        <!--Vigilante Uno-->
-        <div id="vigilanteUno" class="vigilante">
-            <img src="img/vigilante.jpg" alt="vigilanteUno" width="50px">
-        </div>
 
-        <!--Vigilante Dos-->
 
-        <div id="vigilanteDos" class="vigilante">
-            <img src="img/vigilante.jpg" alt="vigilanteDos" width="50px">
-        </div>
 
-        <!--Supervisor-->
-        <div id="supervivor">
-            <img src="img/supervisor.png" alt="supervivor" width="50px">
-        </div>
 
         <!--Plano de la empresa-->
         <div id="planoEmpresa">
@@ -60,8 +80,6 @@
 
             <!--Almacén-->
             <div id="almacen"></div>
-
-        </div>
 
         <!-- puerta provisional situada en la parte de abajo del plano -->
         <img src="img/puertaAbierta.jpg" alt="puertaAbajo" id="puertaAbajo">
