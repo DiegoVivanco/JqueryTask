@@ -46,14 +46,16 @@
 
 #puertaArriba {
     left: 46%;
-    top: 182px;
+    top: 225px;
+    height: 50px;
     width: 165px;
     position: absolute;
 }
 
 #puertaLado{
+    width: 50px;
     position: absolute;
-    left: 19%;
+    left: 21%;
     height: 150px;
 }
 
