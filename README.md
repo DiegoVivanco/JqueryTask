@@ -15,9 +15,9 @@ Una mica separats del croquis, definiu els controls següents:
 
 6) ~~Un acordió amb dos botons: Supervisor i Vigilants. En iniciar l’aplicació, els supervisors i els vigilants estaran dins el desplegable corresponent de l’acordió i l’usuari els haurà d’agafar d’allà. L’acordió s’ha de poder deixar amb tots els desplegables tancats. Tal i com està definida l’aplicació, el desplaçament del supervisor a dins el centre s’executarà bruscament; però aquest defecte estètic no es penalitzarà.~~
 
-7) Un menú amb 3 opcions: Porta de l’àrea de vendes, Porta del magatzem i Porta interior. I, per a cada opció, 3 sub-opocions: Obrir, Tancar i Detenir. Excepte l’opció corresponent a la porta interior, que no tendrà la sub-opció de Detenir.
+7) ~~Un menú amb 3 opcions: Porta de l’àrea de vendes, Porta del magatzem i Porta interior. I, per a cada opció, 3 sub-opocions: Obrir, Tancar i Detenir. Excepte l’opció corresponent a la porta interior, que no tendrà la sub-opció de Detenir.~~
 
-8) Un joc de 3 pestanyes per visualitzar, de forma no simultània, les càmeres del centre: Càmera 1, Càmera 2, i Càmera 3. Quan se seleccioni una pestanya, ha d’aparèixer una foto, que en el nostre exercici substituirà l’entrada de vídeo. Procurau que les 3 fotos tenguin les mateixes mides i el mateix format, i que siguin més o menys coherents amb el que podríem estar enregistrant en un centre comercial. El sistema de pestanyes ha de permetre ocultar totes les càmeres.
+8) ~~Un joc de 3 pestanyes per visualitzar, de forma no simultània, les càmeres del centre: Càmera 1, Càmera 2, i Càmera 3. Quan se seleccioni una pestanya, ha d’aparèixer una foto, que en el nostre exercici substituirà l’entrada de vídeo. Procurau que les 3 fotos tenguin les mateixes mides i el mateix format, i que siguin més o menys coherents amb el que podríem estar enregistrant en un centre comercial. El sistema de pestanyes ha de permetre ocultar totes les càmeres.~~
 
 Un altre cop dins el croquis:
 
