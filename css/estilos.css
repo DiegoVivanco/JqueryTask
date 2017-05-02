@@ -174,3 +174,35 @@
     margin-left: 1174px;
     margin-top: 216px;
 }
+
+#puertaVentasCerrada, #puertaVentasAbierta {
+    position: absolute;
+    left: 352px;
+    width: 20px;
+    height: 140px;
+    margin-right: 5px;
+}
+
+#puertaAlmacenCerrada, #puertaAlmacenAbierta {
+    left: 50%;
+    top: 511px;
+    position: absolute;
+    width: 175px;
+    height: 20px;
+}
+
+#puertaInteriorCerrada, #puertaInteriorAbierta {
+    left: 46%;
+    top: 257px;
+    width: 165px;
+    height: 20px;
+    position: absolute;
+}
+
+#puertaVentasCerrada, #puertaAlmacenCerrada, #puertaInteriorCerrada {
+    background-color: red;
+}
+
+#puertaVentasAbierta, #puertaAlmacenAbierta, #puertaInteriorAbierta {
+    background-color: white;
+}
