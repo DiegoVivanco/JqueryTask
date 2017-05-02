@@ -2,122 +2,107 @@
  * Created by dlvivanco on 22/04/2017.
  */
 
-// Función que Define draggables y droppables
-$( function() {
-        $( ".vigilante" ).draggable();
-        $( "#puntoDeVigilancia" ).droppable({
-            accept: ".vigilante",
-            drop: function( event, ui ) {
-                $( this ).css('background', '#55d532');
-            },
-            out: function (event, ui) {
-                var self = ui;
-                ui.helper.off('mouseup').on('mouseup', function () {
-                    $('#puntoDeVigilancia').css('background', '#41d592');
-                });
-            }
-        });
+$( function() {                                     /* Función que Define draggable y droppable */
+    $( ".vigilante" ).draggable();                  /* define un draggable */
+    $( "#puntoDeVigilancia" ).droppable({           /* define un droppable */
+        accept: ".vigilante",                       /* Validación que solo acepta ".vigilante" */
+        drop: function( event, ui ) {               /* función que cambia el color cuando cae el elemento*/
+            $( this ).css('background', '#55d532'); /* cambia el valor de la variable background del css */
+        },
+        out: function (event, ui) {                 /* función que cambia el color cuando el elemento está fuera */
+            ui.helper.off('mouseup').on('mouseup', function () {
+                $('#puntoDeVigilancia').css('background', '#41d592'); /* cambia el valor de la variable background */
+            });
+        }
+    });
 });
 
-// Función que Define draggable y droppable
-$( function() {
-    $( "#supervivor" ).draggable({
-        containment: '#planoEmpresa'
+$( function() {                                     /* Función que Define draggable y droppable */
+    $( "#supervivor" ).draggable({                  /* define un draggable */
+        containment: '#planoEmpresa'                /* determina que solo puede moverse dentro de "#planoEmpresa" */
     });
-    $( "#puntoDeSupervision" ).droppable({
-        // validación que solo acepta el #supervisor
-        accept: "#supervivor",
-        // función que añade una clase cuando la acción es drop (dejar caer)
-        drop: function( event, ui ) {
-            $( this ).css('background', '#8a8c64');
+    $( "#puntoDeSupervision" ).droppable({          /* define un droppable */
+        accept: "#supervivor",                      /* Validación que solo acepta ".vigilante" */
+        drop: function( event, ui ) {               /* función que cambia el color cuando cae el elemento*/
+            $( this ).css('background', '#8a8c64'); /* cambia el valor de la variable background del css */
         },
-        // función que elimine una clase
-        out: function (event, ui) {
-            var self = ui;
+        out: function (event, ui) {                 /* función que cambia el color cuando el elemento está fuera */
             ui.helper.off('mouseup').on('mouseup', function () {
-                $('#puntoDeSupervision').css('background', '#977AAD');
+                $('#puntoDeSupervision').css('background', '#977AAD'); /* cambia el valor de la variable background */
             });
         }
     });
 } );
 
-
 $( function() {
-    $( "#puntoDeSupervision" ).draggable();
+    $( "#puntoDeSupervision" ).draggable();         /* define un draggable */
 } );
 
 $( function() {
-    $( "#puntoDeVigilancia" ).draggable();
+    $( "#puntoDeVigilancia" ).draggable();          /* define un draggable */
 } );
 
 $( function() {
-    $( "#sortable" ).sortable();
-    $( "#sortable" ).disableSelection();
+    $( "#sortable" ).sortable();                    /* define un sortable */
+    $( "#sortable" ).disableSelection();            /* Desabilita la selección dentro del elemento */
 } );
 
 $( function() {
-    $( "#accordion" ).accordion();
+    $( "#accordion" ).accordion();                  /* define un accordion */
 } );
 
 $( function() {
-    $( "#menu" ).menu();
+    $( "#menu" ).menu();                            /* define un menu */
 } );
 
 $( function() {
-    $( "#tabs" ).tabs();
+    $( "#tabs" ).tabs();                            /* define tabs */
 } );
 
-// función que abre la puerta del departamento ventas
-$(function () {
+$(function () {                                     /* función que abre la puerta del departamento ventas */
     $("#abrirVentas").click(function () {
         $("#puertaVentasCerrada").slideUp(4000);
     });
 });
 
-// función que detiene el movimiento de la puerta del departamento ventas
-$(function () {
+$(function () {                                     /* función que detiene el movimiento de la puerta del departamento ventas */
     $("#detenerVentas").click(function () {
         $("#puertaVentasCerrada").stop();
     });
 });
 
-// función que cierra la puerta del departamento de ventas
-$(function () {
+
+$(function () {                                     /* función que cierra la puerta del departamento de ventas */
     $("#cerrarVentas").click(function () {
         $("#puertaVentasCerrada").slideDown(4000);
     });
 });
 
-// función que abre la puerta interior
-$(function () {
+$(function () {                                     /* función que abre la puerta interior */
     $("#abrirInterior").click(function () {
         $("#puertaInteriorCerrada").hide();
     });
 });
 
-// función que cierra la puerta interior
-$(function () {
+$(function () {                                     /* función que cierra la puerta interior */
     $("#cerrarInterior").click(function () {
         $("#puertaInteriorCerrada").show();
     });
 });
 
-// función que abre la puerta del almacen
-$(function () {
+$(function () {                                     /* función que abre la puerta del almacen */
     $("#abrirAlmacen").click(function () {
         $("#puertaAlmacenCerrada").fadeOut(4000);
     });
 });
 
-// función que detiene el movimiento de la puerta del almacen
-$(function () {
+$(function () {                                     /* función que detiene el movimiento de la puerta del almacen */
     $("#detenerAlmacen").click(function () {
         $("#puertaAlmacenCerrada").stop();
     });
 });
 
-// función que cierra la puerta del almacen
-$(function () {
+$(function () {                                     /* función que cierra la puerta del almacen */
     $("#cerrarAlmacen").click(function () {
         $("#puertaAlmacenCerrada").fadeIn(4000);
     });

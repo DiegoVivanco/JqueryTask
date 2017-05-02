@@ -70,10 +70,6 @@
 }
 
 #vigilanteUno{
-    /*text-align:center;*/
-    /*vertical-align:middle;*/
-    /*font-size:12px;*/
-    /*font-weight:bold;*/
     width:75px;
     height:75px;
     border-style: solid;
@@ -82,10 +78,6 @@
 }
 
 #vigilanteDos{
-    /*text-align:center;*/
-    /*vertical-align:middle;*/
-    /*font-size:12px;*/
-    /*font-weight:bold;*/
     width:75px;
     height:75px;
     border-style: solid;
@@ -96,10 +88,7 @@
 }
 
 #supervivor{
-    /*text-align:center;*/
-    /*vertical-align:middle;*/
-    /*font-size:12px;*/
-    /*font-weight:bold;*/
+
     width:75px;
     height:75px;
     border-style: solid;
@@ -108,7 +97,6 @@
     z-index: 10;
 }
 
-/** style for droppable when the moveable object is dropped **/
 .dropClassVigilante{
     background:#55d532;
 }
@@ -169,10 +157,10 @@
 
 #tabs {
     width: 300px;
-    height: 250px;
+    height: 262px;
     position: absolute;
-    margin-left: 1174px;
-    margin-top: 216px;
+    left: 1174px;
+    top: 216px;
 }
 
 #puertaVentasCerrada, #puertaVentasAbierta {
@@ -205,4 +193,8 @@
 
 #puertaVentasAbierta, #puertaAlmacenAbierta, #puertaInteriorAbierta {
     background-color: white;
+}
+
+.imagenes{
+    margin-left: 26px;
 }
