@@ -21,11 +21,11 @@ Una mica separats del croquis, definiu els controls següents:
 
 Un altre cop dins el croquis:
 
-9) La porta de l’àrea de vendes ha de poder obrir-se, tancar-se i detenir-se amb el menú que heu definit a l’exercici 7. El sistema ha de ser un div estret que faci un efecte d’slide bloquejant i desbloquejant la porta.
+9) ~~La porta de l’àrea de vendes ha de poder obrir-se, tancar-se i detenir-se amb el menú que heu definit a l’exercici 7. El sistema ha de ser un div estret que faci un efecte d’slide bloquejant i desbloquejant la porta.~~
 
-10) La porta del magatzem ha de poder obrir-se, tancar-se i detenir-se amb el menú. El sistema ha de ser un div estret que faci un efecte de fade bloquejant i desbloquejant la porta.
+10) ~~La porta del magatzem ha de poder obrir-se, tancar-se i detenir-se amb el menú. El sistema ha de ser un div estret que faci un efecte de fade bloquejant i desbloquejant la porta.~~
 
-11) La porta interior ha de poder obrir-se i tancar-se amb el menú. El sistema ha de ser un div estret que faci un efecte de show/hide bloquejant i desbloquejant la porta.
+11) ~~La porta interior ha de poder obrir-se i tancar-se amb el menú. El sistema ha de ser un div estret que faci un efecte de show/hide bloquejant i desbloquejant la porta.~~
 
 Només per als grups de 4:
 
@@ -35,7 +35,7 @@ Només per als grups de 4:
 
 Tecnologies preferides
 
-Les funcionalitats sol·licitades s’han d’implementar amb JQuery i JQuery UI. L’ús d’altres tecnologies (com Angular) només es poden utilitzar com a últim recurs, amb penalització sobre la nota.
+Les funcionalitats sol·licitades s’han d’implementar amb JQuery i JQuery UI. ~~L’ús d’altres tecnologies (com Angular) només es poden utilitzar com a últim recurs, amb penalització sobre la nota.~~
 
 Documentació
 
