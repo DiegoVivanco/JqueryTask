@@ -155,7 +155,7 @@
     margin-top: 10px;
 }
 
-#tabs {
+.contenedorTabs {
     width: 300px;
     height: 262px;
     position: absolute;
@@ -197,4 +197,10 @@
 
 .imagenes{
     margin-left: 26px;
+}
+
+.camaraApagada{
+    position: absolute;
+    z-index: 10;
+    display: none;
 }

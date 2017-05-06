@@ -72,28 +72,44 @@
     </div>
 
     <ul id="sortable">
-        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Alimentació</li>
-        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Neteja</li>
-        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Roba</li>
-        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Electrònica</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Alimentación</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Limpieza</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Ropa</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Electrónica</li>
     </ul>
 
-    <div id="tabs">
-        <ul>
-            <li><a href="#tabs-1">Cam 1</a></li>
-            <li><a href="#tabs-2">Cam 2</a></li>
-            <li><a href="#tabs-3">Cam 3</a></li>
-        </ul>
-        <div id="tabs-1">
-            <img class="imagenes" src="img/camara1.jpg" alt="cam1">
+    <div class="contenedorTabs">
+        <div class="widget">
+            <div class="controlgroup">
+                <form id="control">
+                    <label for="encenderCamaras">Cámaras On</label>
+                    <input type="radio" name="camaras" id="encenderCamaras" checked>
+                    <label for="apagarCamaras">Cámaras Off</label>
+                    <input type="radio" name="camaras" id="apagarCamaras">
+                </form>
+            </div>
         </div>
-        <div id="tabs-2">
-            <img class="imagenes" src="img/camara2.jpg" alt="cam2">
+
+        <div id="tabs">
+            <img class="camaraApagada" src="img/camaraOff.jpg" width="295" height="280">
+            <ul>
+                <li><a href="#tabs-1">Cam 1</a></li>
+                <li><a href="#tabs-2">Cam 2</a></li>
+                <li><a href="#tabs-3">Cam 3</a></li>
+            </ul>
+            <div id="tabs-1">
+                <img class="imagenes" src="img/camara1.jpg" alt="cam1">
+            </div>
+            <div id="tabs-2">
+                <img class="imagenes" src="img/camara2.jpg" alt="cam2">
+            </div>
+            <div id="tabs-3">
+                <img class="imagenes" src="img/camara3.jpg" alt="cam3">
+            </div>
         </div>
-        <div id="tabs-3">
-            <img class="imagenes" src="img/camara3.jpg" alt="cam3">
-        </div>
+
     </div>
+
 
 
     <!--Plano de la empresa-->
@@ -123,6 +139,8 @@
         <div id="puertaAlmacenAbierta"></div>
         <div id="puertaAlmacenCerrada"></div>
     </div>
+
+</div>
 
 </body>
 </html>

@@ -48,7 +48,10 @@ $( function() {
 } );
 
 $( function() {
-    $( "#accordion" ).accordion();                  /* define un accordion */
+    $( "#accordion" ).accordion({                    /* define un accordion */
+        active: false,
+        collapsible: true
+    });
 } );
 
 $( function() {
@@ -107,3 +110,25 @@ $(function () {                                     /* función que cierra la pu
         $("#puertaAlmacenCerrada").fadeIn(4000);
     });
 });
+
+$( function() {
+    $( ".controlgroup" ).controlgroup();
+} );
+
+
+$(function () {
+    $("#control").buttonset();
+
+    $("input[type='radio']").on("change", function () {
+        // this will contain a reference to the checkbox
+
+        if ($(".camaraApagada").css('display') == 'none') {
+            $('.camaraApagada').css('display', 'block');
+        } else {
+            $('.camaraApagada').css('display', 'none');
+        }
+    });
+
+});
+
+
