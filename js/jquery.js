@@ -2,7 +2,7 @@
  * Created by dlvivanco on 22/04/2017.
  */
 
-$( function() {                                     /* Función que Define draggable y droppable */
+$( function() {                                     /* función que Define draggable y droppable */
     $( ".vigilante" ).draggable();                  /* define un draggable */
     $( "#puntoDeVigilancia" ).droppable({           /* define un droppable */
         accept: ".vigilante",                       /* Validación que solo acepta ".vigilante" */
@@ -17,7 +17,7 @@ $( function() {                                     /* Función que Define dragg
     });
 });
 
-$( function() {                                     /* Función que Define draggable y droppable */
+$( function() {                                     /* función que Define draggable y droppable */
     $( "#supervivor" ).draggable({                  /* define un draggable */
         containment: '#planoEmpresa'                /* determina que solo puede moverse dentro de "#planoEmpresa" */
     });
@@ -35,31 +35,31 @@ $( function() {                                     /* Función que Define dragg
 } );
 
 $( function() {
-    $( "#puntoDeSupervision" ).draggable();         /* define un draggable */
+    $( "#puntoDeSupervision" ).draggable();         /* función que define un draggable */
 } );
 
 $( function() {
-    $( "#puntoDeVigilancia" ).draggable();          /* define un draggable */
+    $( "#puntoDeVigilancia" ).draggable();          /* función que define un draggable */
 } );
 
 $( function() {
-    $( "#sortable" ).sortable();                    /* define un sortable */
+    $( "#sortable" ).sortable();                    /* función que define un sortable */
     $( "#sortable" ).disableSelection();            /* Desabilita la selección dentro del elemento */
 } );
 
 $( function() {
-    $( "#accordion" ).accordion({                    /* define un accordion */
+    $( "#accordion" ).accordion({                    /* función que define un accordion */
         active: false,
         collapsible: true
     });
 } );
 
 $( function() {
-    $( "#menu" ).menu();                            /* define un menu */
+    $( "#menu" ).menu();                            /* función que define un menu */
 } );
 
 $( function() {
-    $( "#tabs" ).tabs();                            /* define tabs */
+    $( "#tabs" ).tabs();                            /* función que define tabs */
 } );
 
 $(function () {                                     /* función que abre la puerta del departamento ventas */
@@ -112,15 +112,14 @@ $(function () {                                     /* función que cierra la pu
 });
 
 $( function() {
-    $( ".controlgroup" ).controlgroup();
+    $( ".controlgroup" ).controlgroup();            /* función que define un control */
 } );
 
 
 $(function () {
-    $("#control").buttonset();
+    $("#control").buttonset();                      /* función que define un conjunto de bottones */
 
-    $("input[type='radio']").on("change", function () {
-        // this will contain a reference to the checkbox
+    $("input[type='radio']").on("change", function () { /* función que se activa cuando se cambia de input tipo radio */
 
         if ($(".camaraApagada").css('display') == 'none') {
             $('.camaraApagada').css('display', 'block');
